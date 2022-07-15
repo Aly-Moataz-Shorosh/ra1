@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Assignment 1 - Mon AND Thur 7 PM - aly moataz - 01001422936
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
