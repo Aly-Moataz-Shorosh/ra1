@@ -1,0 +1,118 @@
+.portfolio{
+    margin: 5rem 0px;
+}
+
+.sepDash2{
+    width: 7rem;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #2C3E50;
+    margin: 0px 1rem;
+}
+.separator2{
+    display: flex;
+    justify-content: center;
+    color: #2C3E50;;
+}
+
+h2{
+    font-size: 3rem !important;
+    font-weight: bold !important;
+    color: #2C3E50 !important;
+    margin: 2rem 0px !important;
+}
+
+
+
+/* ####################### */
+.cardImage{
+    border-style: none !important;
+}
+.overlayColor{
+    background-color: rgba(26, 188, 156, 0.8)  ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+
+    transition: all 0.5s;
+}
+.cardContainer{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.overlayColor i{
+    font-size: 8rem;
+    color: white;
+}
+
+.cardContainer:hover .overlayColor{
+    opacity: 1;
+}
+/* ################################ */
+.cardExpandInner{
+    border-radius: 20px;
+    width: 80%;
+
+    margin: auto;
+    background-color: white;
+
+    position: relative;
+
+    padding: 20px;
+
+    top:'-500px';
+    opacity: '0';
+}
+.cardExpand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    width: 100%;
+    height: 100%;
+
+  
+    background-color: rgba(1, 1, 1, 0.5);
+
+    opacity: '0';
+    
+}
+.closeIcon{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 3rem;
+    color: #1ABC9C ;
+    cursor: pointer;
+}
+.closeIcon:hover{
+    color: #27e7c1 ;
+}
+.cardExpandP{
+    font-size: 1.2rem;
+    color: #2C3E50;
+    width: 75%;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+.cardDetailsGeneral{
+    display: none;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0px !important;
+    margin: 0px !important;
+}
